@@ -6,8 +6,10 @@ const studentModel = require("./students/mathStudents");
 app = express();
 app.use(express.json());
 
+app.use(cors());
+
 // const port = 5000;¨
-const port = process.env.PORT;
+const port = 7500;
 
 
 
